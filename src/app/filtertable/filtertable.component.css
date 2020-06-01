@@ -1,0 +1,16 @@
+
+.example-container {
+    width: 100%;
+    height: 100%;
+  }
+  .table{
+    width: 80%;
+    height: inherit;
+    background-color: red;
+   margin-inline-end: 8px;
+  
+  }
+  .dashboard{
+  background-color:purple;
+  margin-inline-start: 8px;
+  }
