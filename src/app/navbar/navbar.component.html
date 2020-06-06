@@ -6,13 +6,10 @@
     <mat-drawer-content class="dashboard">
       <div class="buttonview">
       <h1 class="mat-display-1 word">list view</h1>
-      <button mat-raised-button>Basic</button>
+      <button routerLink="/filtertable" mat-raised-button>filter</button>
       </div>
       <router-outlet>
-  <app-table></app-table>
-  <app-filtertable>
-    
-  </app-filtertable>
+  
       </router-outlet>
     </mat-drawer-content>
   </mat-drawer-container>

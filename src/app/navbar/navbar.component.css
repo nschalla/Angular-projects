@@ -22,3 +22,8 @@
     display: flex;
     justify-content: space-between;
   }
+  button{
+    margin:8px;
+    width: 80px;
+    padding:8px;
+  }
